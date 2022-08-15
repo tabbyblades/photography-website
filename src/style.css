@@ -74,10 +74,6 @@ letter-spacing:5px;
     font-family:'Roboto', sans-serif;
 }
 
-.icon{
-    width: 100px;
-}
-
 @media (max-width:600px){
     .hero h1{
         font-size: 40px;
@@ -91,4 +87,9 @@ letter-spacing:5px;
     .homepage{
         display: none;
     }
+}
+
+.about-page{
+    background-color: #282323;
+    color: #E5E5E5;
 }
