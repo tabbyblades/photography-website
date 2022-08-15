@@ -38,9 +38,10 @@ letter-spacing:5px;
 }
 
 .hero h2{
-    font-size: 30px;
+    font-size: 40px;
     letter-spacing: 2px;
-    padding-top: 276px;   
+    padding-top: 276px;  
+    
 }
 
 .hero h3{
@@ -53,7 +54,7 @@ letter-spacing:5px;
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
-    color: black;
+    color: #282323;
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 2px;
@@ -63,6 +64,20 @@ letter-spacing:5px;
    padding: 18px 30px;
    max-width: 200px;
 }
+
+.card-body{
+    background-color:#282323;
+}
+
+.footer{
+    color: #E5E5E5;
+    font-family:'Roboto', sans-serif;
+}
+
+.icon{
+    width: 100px;
+}
+
 @media (max-width:600px){
     .hero h1{
         font-size: 40px;
