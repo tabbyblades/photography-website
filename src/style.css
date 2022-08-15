@@ -3,7 +3,9 @@
     background-color: #282323;
 }
 
-
+.img-fluid{
+    max-height: 240px;
+}
 .container-fluid{
     background-image: url(/images/bg.png);
     background-size: cover;
@@ -61,5 +63,8 @@ letter-spacing:5px;
     }
     .container-fluid h3{
         font-size: 15px;
+    }
+    .homepage{
+        display: none;
     }
 }
