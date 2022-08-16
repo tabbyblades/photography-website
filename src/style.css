@@ -93,3 +93,22 @@ letter-spacing:5px;
     background-color: #282323;
     color: #E5E5E5;
 }
+
+.about-page h1{
+    font-family: 'Roboto', sans-serif;
+    font-size: 64px;
+}
+.about-page h2{
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F65282;
+    font-weight: 700;
+    margin-top: 169px;
+    text-align: left;
+}
+
+.about-page p {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 14px;
+    font-weight: 400;
+}
