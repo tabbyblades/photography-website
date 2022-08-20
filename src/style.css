@@ -110,9 +110,10 @@ letter-spacing:5px;
     color: #E5E5E5;
 }
 
-.about-page h1{
+.about-page h1, .gallery h1{
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
+    font-weight: 700;
 }
 .about-page h2{
     font-family:'Roboto', sans-serif;
@@ -140,4 +141,9 @@ letter-spacing:5px;
     margin-top: 117px;
     margin-left: -25px;
     margin-bottom: 117px;
+}
+
+.gallery{
+    background-color: #282323;
+    color: #E5E5E5;
 }
