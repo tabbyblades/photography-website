@@ -78,13 +78,22 @@ letter-spacing:5px;
    max-width: 200px;
 }
 
-.card-body{
-    background-color:#282323;
+
+.gallery-footer{
+    color: #282323;
+    font-family:'Roboto', sans-serif;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #E5E5E5;
 }
 
-.footer{
+.primary-footer{
     color: #E5E5E5;
     font-family:'Roboto', sans-serif;
+    margin-top: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px; 
+    background-color: #282323;
 }
 
 @media (max-width:600px){
@@ -147,3 +156,4 @@ letter-spacing:5px;
     background-color: #282323;
     color: #E5E5E5;
 }
+
