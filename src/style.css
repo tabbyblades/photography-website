@@ -114,6 +114,12 @@ text-shadow: 1px 1px 2px #282323;
     .about-me-img{
         display: none;
     }
+    .gallery-footer{
+        display:none;
+    }
+    .primary-footer{
+        display: none;
+    }
 }
 
 .about-page{
@@ -121,7 +127,7 @@ text-shadow: 1px 1px 2px #282323;
     color: #E5E5E5;
 }
 
-.about-page h1, .gallery h1{
+.about-page h1, .gallery h1, .contact h1{
     font-family: 'Roboto', sans-serif;
     font-size: 64px;
     font-weight: 700;
@@ -157,14 +163,36 @@ text-shadow: 1px 1px 2px #282323;
     margin-bottom: 117px;
 }
 
-.gallery{
-    background-color: #282323;
+.gallery h1{
+    padding-top: 100px;
+    line-height: 85px;
     color: #E5E5E5;
+    
 }
 
-.gallery h1{
-    padding-top: 125px;
-    line-height: 85px;
-letter-spacing:5px;
-    
+.contact .navbar a{
+    color: #282323;
+}
+
+.contact h1{
+padding-top: 100px;
+padding-bottom: 40px;
+}
+
+.contact h2{
+    text-align: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 18px;
+    color: #F65282;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.contact p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 14px;
+    font-weight: 400;
+    text-align: center;
+    color: #282323;
 }
