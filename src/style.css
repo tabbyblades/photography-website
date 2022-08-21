@@ -1,10 +1,15 @@
+:root{
+    --primary-colour:#282323;
+    --secondary-colour:#E5E5E5;
+    --accent-colour:#F65282;
+}
 
 .homepage{
-    background-color: #E5E5E5;
+    background-color: var(--secondary-colour);
 }
 
 .navbar a{
-    color: #E5E5E5;
+    color: var(--secondary-colour);
     font-family: 'Roboto', sans-serif;
 }
 
@@ -25,7 +30,7 @@
 }
 
 .hero h1, h2, h3{
-    color: #E5E5E5;
+    color: var(--secondary-colour);
     text-align: center;
     font-family: 'Roboto', sans-serif;
 }
@@ -34,7 +39,7 @@
 font-size: 72px;
 line-height: 85px;
 letter-spacing:5px;
-text-shadow: 1px 1px 2px #282323;
+text-shadow: 1px 1px 2px var(--primary-colour);
 
 }
 
@@ -42,7 +47,7 @@ text-shadow: 1px 1px 2px #282323;
     font-size: 40px;
     letter-spacing: 2px;
     padding-top: 276px;  
-    text-shadow: 1px 1px 2px #282323;
+    text-shadow: 1px 1px 2px var(--primary-colour);
     
 }
 
@@ -56,12 +61,12 @@ text-shadow: 1px 1px 2px #282323;
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
-    color: #282323;
+    color: var(--primary-colour);
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
-    background-color:#E5E5E5;
+    background-color:var(--secondary-colour);
    border-radius: 50px;
    padding: 18px 30px;
    max-width: 200px;
@@ -69,12 +74,12 @@ text-shadow: 1px 1px 2px #282323;
 
 .contact-me{
     text-align: center;
-    color: #282323;
+    color: var(--primary-colour);
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 2px;
     font-family: 'Montserrat', sans-serif;
-    background-color:#E5E5E5;
+    background-color:var(--secondary-colour);
    border-radius: 50px;
    padding: 18px 30px;
    max-width: 200px;
@@ -82,20 +87,20 @@ text-shadow: 1px 1px 2px #282323;
 
 
 .gallery-footer{
-    color: #282323;
+    color: var(--primary-colour);
     font-family:'Roboto', sans-serif;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: #E5E5E5;
+    background-color: var(--secondary-colour);
 }
 
 .primary-footer{
-    color: #E5E5E5;
+    color: var(--secondary-colour);
     font-family:'Roboto', sans-serif;
     margin-top: 50px;
     padding-top: 15px;
     padding-bottom: 15px; 
-    background-color: #282323;
+    background-color: var(--primary-colour);
 }
 
 @media (max-width:600px){
@@ -123,7 +128,7 @@ text-shadow: 1px 1px 2px #282323;
 }
 
 .about-page{
-    color: #E5E5E5;
+    color: var(--secondary-colour);
 }
 
 .about-page h1, .gallery h1, .contact h1{
@@ -135,7 +140,7 @@ text-shadow: 1px 1px 2px #282323;
 .about-page h2{
     font-family:'Roboto', sans-serif;
     font-size: 18px;
-    color: #F65282;
+    color: var(--accent-colour);
     font-weight: 700;
     margin-top: 169px;
     text-align: left;
@@ -145,7 +150,7 @@ text-shadow: 1px 1px 2px #282323;
 .about-page h3{
     font-family:'Roboto', sans-serif;
     font-size: 18px;
-    color: #F65282;
+    color: var(--accent-colour);
     font-weight: 700;
     text-align: left; 
     letter-spacing: 2px;
@@ -165,12 +170,12 @@ text-shadow: 1px 1px 2px #282323;
 .gallery h1{
     padding-top: 100px;
     line-height: 85px;
-    color: #E5E5E5;
+    color: var(--secondary-colour);
     
 }
 
 .contact .navbar a{
-    color: #282323;
+    color: var(--primary-colour);
 }
 
 .contact h1{
@@ -182,7 +187,7 @@ padding-bottom: 40px;
     text-align: center;
     font-family:'Roboto', sans-serif;
     font-size: 18px;
-    color: #F65282;
+    color: var(--accent-colour);
     font-weight: 700;
     letter-spacing: 2px;
     margin-top: 25px;
@@ -193,5 +198,5 @@ padding-bottom: 40px;
     font-weight: 14px;
     font-weight: 400;
     text-align: center;
-    color: #282323;
+    color: var(--primary-colour);
 }
