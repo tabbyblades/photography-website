@@ -8,15 +8,6 @@
     background-color: var(--secondary-colour);
 }
 
-.navbar a{
-    color: var(--secondary-colour);
-    font-family: 'Roboto', sans-serif;
-}
-
-.hero .container-fluid{
-    background-color: transparent;
-}
-
 .thumbnails{
     max-height: 240px;
 }
@@ -61,7 +52,7 @@ text-shadow: 1px 1px 2px var(--primary-colour);
     margin: 0 auto;
     margin-top: 30px;
     text-align: center;
-    color: var(--primary-colour);
+    color: var(--accent-colour);
     text-decoration: none;
     font-size: 14px;
     letter-spacing: 2px;
@@ -174,10 +165,6 @@ text-shadow: 1px 1px 2px var(--primary-colour);
     
 }
 
-.contact .navbar a{
-    color: var(--primary-colour);
-}
-
 .contact h1{
 padding-top: 100px;
 padding-bottom: 40px;
@@ -204,4 +191,18 @@ padding-bottom: 40px;
 .github-link{
     text-decoration: none;
     color: var(--primary-colour);
+}
+
+.contact .navbar{
+    background-color: var(--secondary-colour);
+}
+
+.about-page .navbar, .homepage .navbar, .gallery .navbar{
+    background-color: #282323;
+
+}
+
+.navbar a{
+    color: var(--accent-colour);
+    font-family: 'Roboto', sans-serif;
 }
