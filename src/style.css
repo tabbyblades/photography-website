@@ -116,6 +116,10 @@ text-shadow: 1px 1px 2px var(--primary-colour);
     .primary-footer{
         display: none;
     }
+    .gallery img {
+        max-height: 180px;
+        margin: 20px;
+    }
 }
 
 .about-page{
@@ -197,7 +201,7 @@ padding-bottom: 40px;
     background-color: var(--secondary-colour);
 }
 
-.about-page .navbar, .homepage .navbar, .gallery .navbar{
+.about-page .navbar, .gallery .navbar{
     background-color: #282323;
 
 }
